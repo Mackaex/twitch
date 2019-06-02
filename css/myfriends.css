@@ -3,7 +3,7 @@ html, body {
 	margin:0px;
 	padding:0px;
 	border: 0px;
-	background-color:#d9dfe5;
+	background-color: #d9dfe5;
 }
 div{
 	background-color: #d9dfe5;
@@ -20,4 +20,7 @@ header{
 }
 .content{
 	text-align: center;
+}
+ol{
+	list-style: none;
 }

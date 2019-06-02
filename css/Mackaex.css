@@ -17,6 +17,12 @@ header{
 	background-size: 5000px 900px;
 	margin: 0 auto;
 }
+h2{
+	display: inline-block;
+	margin: 0 auto;
+	text-align: center;
+	padding: 0;
+}
 h1{
 	font-size: 90px;
 	color: #d9dfe5;
@@ -61,7 +67,10 @@ ul{
 	margin: 0;
 }
 a{
-	color: green;
+	color: purple;
+	display: inline-block;
+	margin: 0 7px;
+	text-align: center;
 }
 footer{
 	max-width: 74%;
