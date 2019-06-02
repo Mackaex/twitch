@@ -1,24 +1,25 @@
 html, body {
-	font-family: Arial, Sans-serif;
+	font-family: Arial, franklin-gothic;
 	margin:0px;
 	padding:0px;
 	border: 0px;
 }
 div{
-	background-color: #ffccb3;
+	background-color: #d9dfe5;
 }
 header{
 	background-color: antiquewhite;
+	border-radius: 10px;
 	background-image: url('../img/banner.png');
-	/*border-radius: 10px;*/
 	padding: 40px;
 	text-align: center;
-	box-shadow: o 2px 4px;
-	background-size: 5004px 826px;
+	box-shadow: 0 2px 4px;
+	background-size: 5000px 900px;
+	margin: 0 auto;
 }
 h1{
 	font-size: 90px;
-	color: #330033;
+	color: #d9dfe5;
 	text-shadow: 10px 4px 20px black;
 	margin: 0;
 	text-transform: uppercase;
@@ -29,17 +30,20 @@ iframe{
 	padding: 0;
 	max-height: 35%;
 	display: block;
+	box-shadow: 0 2px 4px;
+	border-radius: 5px
 }
 header img{
 	border-radius: 600px;
 	box-shadow: 10px 10px 20px
 }
 .content{
-	max-width: 74%;
+	max-width: 73%;
 	margin: 0 auto;
-	background-color: #ffccb3;
+	background-color: #d9dfe5;
 	padding: 0;
 	list-style: none;
+	text-align: center;
 }
 .computerimage{
 	border-radius: 10px;
@@ -57,14 +61,14 @@ ul{
 	margin: 0;
 }
 a{
-	color: #33cc00
+	color: green;
 }
 footer{
 	max-width: 74%;
 	margin-top:0;
 	padding:0;
 	margin:auto;
-	background-color: #ffccb3;
+	background-color: #d9dfe5;
 }
 footer ul li p.Mackaex{
 	color: Darkred;
