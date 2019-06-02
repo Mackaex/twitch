@@ -19,6 +19,7 @@ header{
 	margin: 0 auto;
 }
 h2{
+	color: purple;
 	margin: 0 7px;
 	padding: 0;
 	display: inline-block;
@@ -31,4 +32,9 @@ h2{
 }
 ol{
 	list-style: none;
+}
+footer ul li {
+max-width: 75%;
+	display: inline-block;
+	margin: 0 7px;
 }

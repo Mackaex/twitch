@@ -18,9 +18,23 @@ header{
 	background-size: 5000px 900px;
 	margin: 0 auto;
 }
+h2{
+	color: purple;
+	margin: 0 7px;
+	padding: 0;
+	display: inline-block;
+	max-width: 75%;
+	display: inline-block;
+	text-align: center;
+}
 .content{
 	text-align: center;
 }
 ol{
 	list-style: none;
+}
+footer ul li {
+max-width: 75%;
+	display: inline-block;
+	margin: 0 7px;
 }
