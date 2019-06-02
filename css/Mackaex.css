@@ -23,6 +23,13 @@ h1{
 	margin: 0;
 	text-transform: uppercase;
 }
+iframe{
+	max-width: 100%;
+	margin:0 auto;
+	padding: 0;
+	max-height: 35%;
+	display: block;
+}
 header img{
 	border-radius: 600px;
 	box-shadow: 10px 10px 20px
