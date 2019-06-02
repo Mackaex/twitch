@@ -18,10 +18,12 @@ header{
 	margin: 0 auto;
 }
 h2{
-	display: inline-block;
 	margin: 0 auto;
-	text-align: center;
 	padding: 0;
+	display: inline-block;
+	max-width: 75%;
+	display: inline-block;
+	text-align: center;
 }
 h1{
 	font-size: 90px;
