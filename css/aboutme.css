@@ -31,8 +31,15 @@ h2{
 .content{
 	text-align: center;
 }
-footer ul li {
+footer ul{
+	text-align: center;
+}
+footer ul li{
 max-width: 75%;
 	display: inline-block;
 	margin: 0 7px;
+	
+}
+.Mackaex{
+	color: red;
 }
