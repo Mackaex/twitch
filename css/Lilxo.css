@@ -7,18 +7,31 @@ html, body {
 div{
 	background-color: #d9dfe5;
 }
-
 header{
 	background-color: antiquewhite;
 	border-radius: 10px;
-	background-image: url('../img/background.jpeg');
+	background-image: url('../img/Background.jpeg');
 	padding: 40px;
 	text-align: center;
 	box-shadow: 0 2px 4px;
-	background-repeat: repeat;
 	margin: 0 auto;
+	background-repeat: repeat;
 }
-
+h2{
+	margin: 0 auto;
+	padding: 0;
+	display: inline-block;
+	max-width: 75%;
+	display: inline-block;
+	text-align: center;
+}
+h1{
+	font-size: 90px;
+	color: #d9dfe5;
+	text-shadow: 10px 4px 20px black;
+	margin: 0;
+	text-transform: uppercase;
+}
 iframe{
 	max-width: 100%;
 	margin:0 auto;
@@ -29,12 +42,12 @@ iframe{
 	border-radius: 10px
 }
 header img{
-	object-fit:cover;
+object-fit: cover;
+width: 500px;
+height: 450px;
 
-	width: 500px;
-	height: 450px;
-		border-radius: 300px;
-	box-shadow:20px 20px 30px
+	border-radius: 600px;
+	box-shadow: 10px 10px 20px
 }
 .content{
 	max-width: 73%;
@@ -44,10 +57,26 @@ header img{
 	list-style: none;
 	text-align: center;
 }
+.computerimage{
+	border-radius: 10px;
+	max-width: 750px;
+	margin: 2 auto;
+}
+p.caption{
+	font-size: 16px;
+	color: black;
+	font-style: italic;
+}
 ul{
 	list-style: none;
 	padding: 0;
 	margin: 0;
+}
+a{
+	color: purple;
+	display: inline-block;
+	margin: 0 7px;
+	text-align: center;
 }
 footer{
 	max-width: 74%;
