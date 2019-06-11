@@ -1,0 +1,75 @@
+html, body {
+	font-family: Arial, franklin-gothic;
+	margin:0px;
+	padding:0px;
+	border: 0px;
+}
+div{
+	background-color: #d9dfe5;
+}
+
+.wrapper{
+	background-color: #d9dfe5 ;
+}
+
+header{
+	background-color: antiquewhite;
+	border-radius: 10px;
+	background-image: url('../img/background.jpeg');
+	padding: 40px;
+	text-align: center;
+	box-shadow: 0 2px 4px;
+	background-repeat: repeat;
+	margin: 0 auto;
+}
+
+iframe{
+	max-width: 100%;
+	margin:0 auto;
+	padding: 0;
+	max-height: 35%;
+	display: block;
+	box-shadow: 0 2px 4px;
+	border-radius: 10px
+}
+header img{
+	object-fit:cover;
+
+	width: 500px;
+	height: 450px;
+		border-radius: 300px;
+	box-shadow:20px 20px 30px
+}
+.content{
+	max-width: 73%;
+	margin: 0 auto;
+	background-color: #d9dfe5;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+footer{
+	max-width: 74%;
+	margin-top:0;
+	padding:0;
+	margin:auto;
+	background-color: #d9dfe5;
+}
+footer ul li p.Mackaex{
+	color: red;
+	text-align: center;
+	display: inline-block;
+}
+footer ul{
+	text-align: center;
+}
+footer ul li {
+max-width: 75%;
+	display: inline-block;
+	margin: 0 7px;
+}
