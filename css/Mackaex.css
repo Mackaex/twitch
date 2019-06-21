@@ -33,8 +33,12 @@ h1{
 	text-transform: uppercase;
 }
 .Menue ul{
+
 	text-align: center;
 	display: inline-block;
+	list-style: none;
+	padding: 0;
+	margin: 0;
 }
 .Menue ul li{
 	float: left;
@@ -60,6 +64,7 @@ h1{
 }
 .Menue ul li:hover ul li{
 	display: block;
+	left: -50%;
 }
 iframe{
 	max-width: 100%;
@@ -90,12 +95,6 @@ p.caption{
 	font-size: 16px;
 	color: black;
 	font-style: italic;
-}
-ul{
-	list-style: none;
-	padding: 0;
-	margin: 0;
-	text-align: center;
 }
 a{
 	color: purple;
