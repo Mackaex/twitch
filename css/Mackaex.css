@@ -32,6 +32,35 @@ h1{
 	margin: 0;
 	text-transform: uppercase;
 }
+.Menue ul{
+	text-align: center;
+	display: inline-block;
+}
+.Menue ul li{
+	float: left;
+	width: 200px;
+	height: 40px;
+	background-color: #ccccff;
+	opacity: .8;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+	margin: 2px;
+}
+.Menue ul li a{
+	text-decoration: none;
+	color:purple;
+	display: block;
+}
+.Menue ul li:hover {
+	background-color: #9999ff;
+}
+.Menue ul li ul li{
+	display: none;
+}
+.Menue ul li:hover ul li{
+	display: block;
+}
 iframe{
 	max-width: 100%;
 	margin:0 auto;
@@ -51,7 +80,6 @@ header img{
 	background-color: #d9dfe5;
 	padding: 0;
 	list-style: none;
-	text-align: center;
 }
 .computerimage{
 	border-radius: 10px;
@@ -67,6 +95,7 @@ ul{
 	list-style: none;
 	padding: 0;
 	margin: 0;
+	text-align: center;
 }
 a{
 	color: purple;
